@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whats SMS Turbo</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Verdana, sans-serif;
+}
+
+body{
+background:#050816;
+color:#fff;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+width:600px;
+height:600px;
+background:#00ff88;
+filter:blur(220px);
+opacity:0.15;
+right:-200px;
+top:-200px;
+z-index:-1;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+padding:100px 0;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:80px;
+}
+
+.logo{
+font-size:2rem;
+font-weight:bold;
+color:#00ff88;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.hero h1{
+font-size:4.5rem;
+line-height:1.1;
+margin-bottom:25px;
+}
+
+.hero h1 span{
+color:#00ff88;
+text-shadow:0 0 20px #00ff88;
+}
+
+.hero p{
+font-size:1.2rem;
+line-height:1.8;
+color:#b8c1ec;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 35px;
+background:#00ff88;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 0 20px rgba(0,255,136,0.4);
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.phone{
+background:#0f172a;
+padding:30px;
+border-radius:35px;
+border:2px solid rgba(255,255,255,0.08);
+box-shadow:0 0 40px rgba(0,0,0,0.5);
+}
+
+.chat{
+background:#111827;
+padding:18px;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.chat.green{
+background:#00ff88;
+color:#000;
+font-weight:bold;
+}
+
+section{
+padding:100px 0;
+}
+
+.title{
+text-align:center;
+margin-bottom:70px;
+}
+
+.title h2{
+font-size:3rem;
+color:#00ff88;
+margin-bottom:15px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#0f172a;
+padding:35px;
+border-radius:25px;
+transition:0.3s;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:#00ff88;
+box-shadow:0 0 30px rgba(0,255,136,0.15);
+}
+
+.card h3{
+margin:20px 0;
+color:#00ff88;
+}
+
+.card p{
+line-height:1.7;
+color:#b8c1ec;
+}
+
+.icon{
+font-size:55px;
+}
+
+.banner{
+background:linear-gradient(135deg,#00ff88,#00c96b);
+padding:80px 40px;
+text-align:center;
+border-radius:30px;
+color:#000;
+}
+
+.banner h2{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.banner p{
+font-size:1.2rem;
+margin-bottom:30px;
+}
+
+.prices{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.price-box{
+background:#0f172a;
+padding:40px;
+border-radius:25px;
+text-align:center;
+}
+
+.price-box h3{
+font-size:2rem;
+color:#00ff88;
+margin-bottom:20px;
+}
+
+.price{
+font-size:4rem;
+font-weight:bold;
+margin-bottom:25px;
+}
+
+.price-box ul{
+list-style:none;
+margin-bottom:35px;
+}
+
+.price-box li{
+margin:15px 0;
+color:#cbd5e1;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#64748b;
+}
+
+@media(max-width:900px){
+.hero{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.title h2,
+.banner h2{
+font-size:2.2rem;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+
+<div class="nav">
+<div class="logo">SMS TURBO</div>
+<a href="https://wa.me/5511974914955" class="btn">WhatsApp</a>
+</div>
+
+<div class="hero">
+
+<div>
+<h1>Venda Mais Com <span>SMS + WhatsApp</span></h1>
+
+<p>
+Dispare campanhas automáticas de SMS e leve clientes diretamente para seu WhatsApp. Plataforma rápida, moderna e preparada para alta conversão.
+</p>
+
+<a href="https://wa.me/5511974914955" class="btn">
+CHAMAR AGORA
+</a>
+</div>
+
+<div class="phone">
+<div class="chat">📩 Promoção liberada para você!</div>
+<div class="chat green">💬 Clique e fale no WhatsApp</div>
+<div class="chat">🚀 Atendimento rápido e automático</div>
+<div class="chat green">🔥 Mais vendas todos os dias</div>
+</div>
+
+</div>
+</div>
+</header>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Recursos Exclusivos</h2>
+<p>Ferramentas criadas para aumentar sua conversão.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">📲</div>
+<h3>WhatsApp Integrado</h3>
+<p>
+Envie clientes direto para conversa no WhatsApp.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">⚡</div>
+<h3>Disparo Instantâneo</h3>
+<p>
+Milhares de SMS enviados em poucos segundos.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📈</div>
+<h3>Alta Conversão</h3>
+<p>
+Transforme mensagens em vendas automáticas.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🔒</div>
+<h3>Segurança Total</h3>
+<p>
+Sistema protegido e estável para sua operação.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="title">
+<h2>Planos Disponíveis</h2>
+</div>
+
+<div class="prices">
+
+<div class="price-box">
+<h3>Básico</h3>
+<div class="price">R$97</div>
+<ul>
+<li>5.000 SMS</li>
+<li>Painel completo</li>
+<li>WhatsApp integrado</li>
+<li>Suporte online</li>
+</ul>
+<a href="https://wa.me/5511974914955" class="btn">CONTRATAR</a>
+</div>
+
+<div class="price-box" style="border:2px solid #00ff88;">
+<h3>Premium</h3>
+<div class="price">R$197</div>
+<ul>
+<li>20.000 SMS</li>
+<li>Automação avançada</li>
+<li>Relatórios premium</li>
+<li>Maior conversão</li>
+</ul>
+<a href="https://wa.me/5511974914955" class="btn">COMEÇAR</a>
+</div>
+
+<div class="price-box">
+<h3>Enterprise</h3>
+<div class="price">FULL</div>
+<ul>
+<li>SMS ilimitado</li>
+<li>API exclusiva</li>
+<li>Servidor dedicado</li>
+<li>Suporte VIP</li>
+</ul>
+<a href="https://wa.me/5511974914955" class="btn">CONSULTAR</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="banner">
+<h2>Comece Hoje Mesmo</h2>
+<p>
+Aumente suas vendas usando campanhas inteligentes de SMS com WhatsApp.
+</p>
+
+<a href="https://wa.me/5511974914955" class="btn" style="background:#000;color:#00ff88;">
+FALAR NO WHATSAPP
+</a>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 Whats SMS Turbo - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
